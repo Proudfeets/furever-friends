@@ -1,3 +1,8 @@
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Delius" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+</head>
+<body>
 <h2>Resend confirmation instructions</h2>
 
 <%= form_for(resource, as: resource_name, url: confirmation_path(resource_name), html: { method: :post }) do |f| %>
@@ -12,5 +17,5 @@
     <%= f.submit "Resend confirmation instructions" %>
   </div>
 <% end %>
-
+</body>
 <%= render "devise/shared/links" %>

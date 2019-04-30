@@ -4,7 +4,12 @@ import {Link} from 'react-router';
 const Main = props => {
   return(
     <div>
-      <h1> Welcome to Furever Friends!</h1>
+      <div>
+        <h1 className="pink">Welcome to Furever Friends!</h1>
+      </div>< br/>
+      <div className="small-center green-accent">
+        This is the landing page for Furever Friends
+      </div>
     </div>
   )
 

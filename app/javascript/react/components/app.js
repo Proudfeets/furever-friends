@@ -8,6 +8,7 @@ export const App = (props) => {
 
     <Router history={browserHistory}>
       <Route path='/' component={Main} />
+        <Route path='/user' component={User} />
     </Router>
     </div>
   )

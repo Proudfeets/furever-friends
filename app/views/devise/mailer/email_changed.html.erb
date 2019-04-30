@@ -1,3 +1,8 @@
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Delius" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+</head>
+<body>
 <p>Hello <%= @email %>!</p>
 
 <% if @resource.try(:unconfirmed_email?) %>
@@ -5,3 +10,4 @@
 <% else %>
   <p>We're contacting you to notify you that your email has been changed to <%= @resource.email %>.</p>
 <% end %>
+</body>

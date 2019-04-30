@@ -15,3 +15,96 @@
  *= require foundation_and_overrides
 
  */
+
+ body{
+   background-color: #418E8E;
+ }
+
+ h1{
+   background-color: #8e418e;
+   color: white;
+   font-family: 'Delius', Helvetica, cursive;
+   margin: 10px;
+   text-align: center;
+ }
+
+h2{
+  display: flex;
+  justify-content: center;
+  background-color: #418E8E;
+  color: white;
+  font-family: 'Delius', Arial, monospace;
+  font-size: 30px;
+  margin:10px;
+  border: 40px;
+}
+
+label {
+  display: flex;
+  background-color: #418E8E;
+  color: white;
+  font-family: 'Raleway', Arial;
+  font-size: 16px;
+  border: 20px;
+  align-items: center;
+}
+
+
+.email_field {
+  margin-left: 30px;
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.small-center{
+  display: flex;
+  justify-content: center;
+}
+
+.green-accent {
+background-color: #418E8E;
+color: white;
+font-family: 'Raleway', Arial;
+font-size: 16px;
+}
+
+ .pink {
+ background-color: #8e418e;
+ color: white;
+ font-family: 'Delius', Helvetica, cursive;
+
+ }
+
+ .box {
+  width: 30%;
+  margin-left: 20%;
+  margin-bottom: 10%;
+ }
+
+ .pink-small-text {
+ background-color: #8e418e;
+ color: white;
+ font-family: 'Raleway', Helvetica, cursive;
+ /* margin: 0px; */
+ }
+
+ .top-bar{
+ background-color: #418E8E;
+ color: white;
+ font-family: Arial, Helvetica, monospace;
+
+ }
+
+.top-bar-section li:not(.has-form) a:not(.button){
+ background-color: #418E8E;
+ color: white;
+ font-family: 'Montserrat', Arial;
+
+ }

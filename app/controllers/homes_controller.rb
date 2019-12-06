@@ -1,6 +1,6 @@
 class HomesController < ApplicationController
   def index
     hi="hi"
-    byee = "bye"
+    bye = "bye"
   end
 end

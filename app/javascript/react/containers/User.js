@@ -1,5 +1,4 @@
-import React from 'react';
-import {Link} from 'react-router';
+import React, {Component} from 'react';
 
 class User extends Component {
   constructor(props){
